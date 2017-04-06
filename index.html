@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    
+  </head>
+  
+  <body>
+    <div class="form">
+      <label>Choose Town CSV</label>
+      <input id="file_input" type="file"></input>
+      <div id="col_sel_area">
+	<label>select town column</label>
+	<select class="col_selector col_sel_town"></select>
+	<label>select color column</label>
+	<select class="col_selector col_sel_color"></select>
+      </div>
+    </div>
+    <div>
+      <style>
+	.graphic{
+	max-width: 600px;
+	margin-left:auto;
+	margin-right:auto;
+
+	font-family: arial, sans;
+	}
+
+
+      </style>
+    <div class="graphic">
+      <h3 contenteditable>Headline</h3>
+      <div class="explainer" contenteditable>Explainer copy goes here.</div>
+      <div id="map-container"></div>
+      <div class="sourceline">Source:<span contenteditable>SOURCE</div>
+      <div class="byline" contenteditable>YOUR NAME</div>
+    </div>
+    </div>
+    <script src="js/ct-color-towns.bundle.js"></script>
+  </body>
+  
+</html>
